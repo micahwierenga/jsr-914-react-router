@@ -21,7 +21,7 @@ export default class CreatePuppy extends Component {
 
     handleSubmit = e => {
         e.preventDefault();
-        this.props.createPuppy(this.state.formData);
+        this.props.createPuppy(this.state.formDat);
     }
 
     render() {
