@@ -62,6 +62,7 @@ export default class App extends Component {
 
   componentDidMount() {
     this.readPuppies();
+    console.log(process.env.REACT_APP_API_KEY)
   }
 
   render() {
